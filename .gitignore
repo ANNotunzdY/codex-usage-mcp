@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+.vs/
+.idea/
+publish/
+*.user
+*.zip
+appsettings.Local.json

@@ -1,0 +1,13 @@
+# Merge this section into your local Codex config; replace paths first.
+# Windows example. A published DLL avoids build output on MCP stdout.
+[mcp_servers.codex_usage]
+command = "dotnet"
+args = ['C:\Tools\CodexUsageMcp\publish\CodexUsageMcp.dll', "--stdio"]
+
+[mcp_servers.codex_usage.env]
+Codex__Executable = 'C:\Your\Actual\Path\codex.exe'
+
+# Unix alternative:
+# command = "dotnet"
+# args = ["/absolute/path/publish/CodexUsageMcp.dll", "--stdio"]
+# Codex__Executable = "/absolute/path/codex"

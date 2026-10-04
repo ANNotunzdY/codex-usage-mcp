@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "codex_usage": {
+      "command": "dotnet",
+      "args": ["C:\\Tools\\CodexUsageMcp\\publish\\CodexUsageMcp.dll", "--stdio"],
+      "env": {"Codex__Executable": "C:\\Your\\Actual\\Path\\codex.exe"}
+    }
+  }
+}
